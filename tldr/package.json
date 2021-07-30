@@ -1,0 +1,48 @@
+{
+  "name": "guide-gatsby-starter",
+  "description": "Example of using Gatsby plugin for Enonic XP",
+  "version": "1.0.0",
+  "author": "Alan Semenov <alan.semenov@gmail.com>",
+  "dependencies": {
+    "gatsby": "^2.32.13",
+    "gatsby-image": "^3.8.0",
+    "gatsby-plugin-enonic": "^0.8.4",
+    "gatsby-plugin-manifest": "^2.12.1",
+    "gatsby-plugin-offline": "^3.10.2",
+    "gatsby-plugin-react-helmet": "^3.10.0",
+    "gatsby-plugin-sharp": "^2.14.4",
+    "gatsby-source-filesystem": "^2.11.1",
+    "gatsby-transformer-sharp": "^2.12.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "react-helmet": "^6.1.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.3.2"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "Apache-2.0",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/enonic/guide-gatsby-starter"
+  },
+  "bugs": {
+    "url": "https://github.com/enonic/guide-gatsby-starter/issues"
+  },
+  "engines": {
+    "node": ">= 12.13.1",
+    "npm": ">= 6.12.1"
+  }
+}
